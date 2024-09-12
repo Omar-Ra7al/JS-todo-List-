@@ -19,7 +19,10 @@ The app includes a flexible animation system managed through JavaScript and CSS.
 ### JavaScript Animation Function
 
 The `animationStatus` function allows you to apply CSS animations to specific To-Do items dynamically.
+## Live Demo
 
+You can view the live demo of the landing page [here](https://omar-ra7al.github.io/JS-todo-List-/).
+##live demo link[]
 ```javascript
 function animationStatus(className, index) {
   // Select the To-Do item at the specified index
