@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo App</title>
+
+    <link rel="stylesheet" href="./styles/main.css" />
+    <link rel="stylesheet" href="./styles//popup.css" />
+  </head>
+
+  <body>
+    <div class="content night">
+      <div class="container">
+        <header>
+          <p>Todo</p>
+          <div>
+            <button class="night">💤</button>
+            <button class="light">☀️</button>
+          </div>
+        </header>
+
+        <div class="addTask-continer">
+          <input
+            type="text"
+            placeholder="Create a new todo..."
+            class="todo-input" />
+          <button class="add-todo">Add</button>
+        </div>
+
+        <div class="wrapper">
+          <div class="todos-container"></div>
+        </div>
+
+        <!-- Placeholder for PopupStatus component -->
+        <div class="popup-status">
+          <!-- Status message here -->
+          <p>hello</p>
+          <p>hello</p>
+          <p>hello</p>
+          <p>hello</p>
+        </div>
+      </div>
+
+      <div class="popup update">
+        <div class="popup-content">
+          <h2>Edit Task (<span>1</span>)</h2>
+          <div>
+            <input type="text" value="Task value" />
+            <button class="edit">Edit</button>
+            <button onclick="closeUpdatePopup()">Cancel</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
